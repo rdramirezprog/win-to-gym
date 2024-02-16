@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="with=device-width, intial-scale=1.0">
+ <title>Fit to Win Gym</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="fittowin.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="fittowin.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log-out</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </div>
+            
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+    <section class="services">
+        <div class="row">
+            <div class="services-col"> 
+                <h3>Beginner</h3>
+                <p>We understand that stepping into a gym for the first time can be daunting. That's why we offer a wide range of beginner-friendly workout programs that cater to various fitness levels. These workouts are designed by experienced trainers and can be accessed directly on our website. Whether you're a total newbie or looking to get back into shape, we have the perfect workout routine for you.
+                </p>
+                <div class="services-col" id="beginner">
+                    <img src="image/BEGINNER.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-col">
+                <h3>Expert</h3>
+                <p>We understand that stepping into a gym for the first time can be daunting. That's why we offer a wide range of beginner-friendly workout programs that cater to various fitness levels. These workouts are designed by experienced trainers and can be accessed directly on our website. Whether you're a total newbie or looking to get back into shape, we have the perfect workout routine for you.
+                </p>
+                <div class="services-col" id="expert">
+                    <img src="image/expert.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-col">
+                <h3>Customized</h3>
+                <p>We understand that stepping into a gym for the first time can be daunting. That's why we offer a wide range of beginner-friendly workout programs that cater to various fitness levels. These workouts are designed by experienced trainers and can be accessed directly on our website. Whether you're a total newbie or looking to get back into shape, we have the perfect workout routine for you.
+                </p>
+                <div class="services-col" id="customized">
+                    <img src="image/CUSTOMIZED.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-col">
+                <h3>Nutritional</h3>
+                <p>We understand that stepping into a gym for the first time can be daunting. That's why we offer a wide range of beginner-friendly workout programs that cater to various fitness levels. These workouts are designed by experienced trainers and can be accessed directly on our website. Whether you're a total newbie or looking to get back into shape, we have the perfect workout routine for you.
+                </p>
+                <div class="services-col" id="nutritional">
+                    <img src="image/NUTRITIONAL.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    
+
+    </section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200px";
+       }
+    </script>
+</body>
+</html>

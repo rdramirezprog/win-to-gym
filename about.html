@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="with=device-width, intial-scale=1.0">
+ <title>Fit to Win Gym</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="fittowin.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="fittowin.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log-out</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </div>
+            
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!-------About us content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Join the Fit To Win Gym Family Today</h1>
+        <p>Your fitness journey is just a click away. Whether you're a first-timer or a seasoned fitness enthusiast, Fit To Win Gym is here to empower you to reach your goals. Start your transformation with us today, and discover the incredible benefits of a healthier, fitter, and more energized you. We're excited to be part of your fitness journey, and we look forward to helping you become the best version of yourself. Welcome to the Fit To Win Gym community!</p>
+        </div>
+        <div class="about-col">
+            <img src="image/about.jpg" alt="">
+        </div>
+    </div>
+
+
+</section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200px";
+       }
+    </script>
+</body>
+</html>

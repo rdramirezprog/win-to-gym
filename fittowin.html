@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="with=device-width, intial-scale=1.0">
+ <title>Fit to Win Gym</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="fittowin.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="fittowin.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#cons">Contact</a></li>
+                    <li><a href="login.html">Log-out</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </div>
+            
+        </nav>
+        <div class="text-box">
+            <h1>Fit to Win Gym</h1>
+            <p>Welcome to Fit To Win Gym, your ultimate destination for fitness and well-being. <br> We are more than just a gym; we are a community that is committed to <br>helping individuals like you, especially those new to the world of fitness,<br> embark on a transformative journey towards a healthier and happier lifestyle.</p>
+            <a href="mainmenu.html" class="hero-btn">Workout now</a>
+            
+        </div>
+        
+        
+    </section>
+    <!-------- home --------->
+    
+<!-------services-------->
+    <section class="services">
+        <h1> Our Services</h1>
+        <div class="row">
+            <div class="services-col">
+                <a href="services.html #beginner"><img src="image/BEGINNER.jpg"></a>
+                <div class="layer">
+                    <h3>Beginner-Friendly Workouts</h3>
+                </div>
+               
+            </div>
+            <div class="services-col">
+                <a href="services.html"></a><img src="image/expert.jpg"></a>
+                <div class="layer">
+                    <h3>Expert Guidance</h3>
+                </div>
+               
+            </div>
+            <div class="services-col">
+                <a href="services.html"><img src="image/CUSTOMIZED.jpg"></a>
+                <div class="layer">
+                    <h3>Customized Workout Plans</h3>
+                </div>
+               
+            </div>
+           
+            <div class="services-col">
+                <a href="services.html"><img src="image/NUTRITIONAL.jpg"></a>
+                <div class="layer">
+                    <h3>Nutritional Guidance</h3>
+                </div>
+               
+            </div>
+           
+           
+
+        </div>
+
+ 
+    </section>
+    <!-------contact-------->
+    <section class="ctn" id="cons">
+        <h1> For more information contact us </h1>
+        <div class="contact-theme">
+            <h2>Email</h2>
+            <p><a href="mailto:info@example.com" class=>fittowingym@gmail.com</a></p>
+        </div>
+        <div class="contact-theme">
+            <h2>Phone</h2>
+            <p>(63) 907-893-1098</p>
+        </div>
+    </section>
+<!-------About us-------->
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200px";
+       }
+    </script>
+</body>
+</html>
